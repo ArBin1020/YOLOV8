@@ -1,5 +1,5 @@
-from ultraopt import YOLO
+from ultralytics import YOLO
 
 model = YOLO('yolov8x')
 
-model.predict('input_videos/image.jpg', sv=True)
+model.predict('input_videos/image.png', save=True)
